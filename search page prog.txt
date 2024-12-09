@@ -1,0 +1,183 @@
+<html>
+
+<head>
+<link rel="stylesheet"href="search page.css">
+</head>
+<div class="scrollmenu">
+
+  <a href="file:///D:/INDUSTRIAL%20COURSE/review%201.html">Home</a>
+  <a href="file:///D:/INDUSTRIAL%20COURSE/genres.html">Blogs</a>
+  <a href="file:///D:/INDUSTRIAL%20COURSE/profile.html">My Profile</a>
+  <a href="file:///D:/INDUSTRIAL%20COURSE/about.html">About</a>
+<input type="text" placeholder="Search..">
+</div>
+<body background="https://images.unsplash.com/photo-1502977103073-bc3ba1ffcdd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5MzQ4Mzg1fHxlbnwwfHx8fA%3D%3D&w=1000&q=80" style=background-repeat:no-repeat;background-size:1300px 1000px;;>
+<p><h2><center>BLOGGERS YOU MAY BE INTERESTED IN!</center></h2></p>
+<br><br><br><br><br>
+<div style = "position:relative;left:50px;>
+<div class="row">
+  <div class="column">
+<div class="card">
+ <br> <img src="D:\project.jpg" alt="John" style="width:60%">
+  <h1>John Doe</h1>
+  <p class="title">Proffessor</p>
+  <p>Harvard University</p>
+<p>Be Creative</p>
+  <p>blogs-12</p>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+<p><button>Follow</button></p>
+  <p><button>Contact</button></p>
+</div>
+</div>
+</div><br><br>
+<div style = "position:relative;left:50px;>
+<div class="column">
+<div class="card">
+  <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0JRxMd2GjtvfTH1Y4-8KeA8oJ_ptxcwMTxg&usqp=CAU" alt="Sarah" style="width:60%">
+  <div class="container">
+<h1>Sarah Williams</h1>
+  <p class="title">General Manager</p>
+  <p>Accenture</p>
+<p>blogs-0</p>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <p><button>Follow</button></p>
+  <p><button>Contact</button></p>
+</div>
+</div>
+</div>
+<div style = "position:relative;left:450px; bottom:940px;">
+<div class="column">
+<div class="card">
+  <br><img src="D:\proj.jpg" alt="John" style="width:60%">
+  <h1>Vaidhehi Shetty</h1>
+  <p class="title">Student at IIT Bangalore</p>
+  <p>B.Tech-IT 1st Year</p>
+<br><p>Blogs-6</p>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+<p><button>Follow</button></p>
+  <p><button>Contact</button></p>
+</div>
+</div>
+</div>
+<div style = "position:relative;left:450px; bottom:900px;">
+<div class="column">
+<div class="card">
+  <br><img src="https://s.abcnews.com/images/GMA/idris-elba1-sh-ml-181106_hpMain_4x3_608.jpg" alt="John" style="width:60%">
+  <h1>Noel Paul</h1>
+  <p class="title">Journalist</p>
+
+<p>Blogs-2</p>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+<p><button>Follow</button></p>
+  <p><button>Contact</button></p>
+</div>
+</div>
+</div>
+<div style = "position:relative;left:850px; bottom:1320px;">
+<div class="column">
+<div class="card">
+  <br><img src="http://wilmingtonbiz.s3.amazonaws.com/gwbj_0906_techmain.jpg" alt="John" style="width:60%">
+  <h1>Stephanie Kim</h1>
+  <p class="title">Socialist</p>
+<p>Keep writting</p>
+<p>Blogs-32</p>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+<p><button>Follow</button></p>
+  <p><button>Contact</button></p>
+</div>
+</div>
+</div>
+<div style = "position:relative;left:850px; bottom:2270px;">
+<div class="column">
+<div class="card">
+  <br><img src="D:\pro.jpg" alt="John" style="width:60%">
+  <h1>Mohammed Ali</h1>
+  <p class="title">Author</p>
+<p>Love writting</p>
+<br>
+<p>Blogs-2</p>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+<p><button>Follow</button></p>
+  <p><button>Contact</button></p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<html>
+<style>
+div.btn {
+ background-color: black; 
+  border-radius:2px;
+  color: white;
+  padding: 0px;
+  text-align: center;
+ margin: 5px 0;
+  opacity: 0.85;
+  font-size: 15px;
+  width:150;
+  height:50;
+}
+{
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+border-radius:12px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<body>
+<div style = "position:relative;left:550px;bottom:1800px;">
+<div class="btn">
+<button onclick="document.location='reg review.html'"><h3>View More</h3></button></div>
+</div>
+<br>
+<div style = "position:relative;left:100px; bottom:2900px;">
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Find Friends.." name="search" autofocus>
+</form>
+</div>
+</body>
+</html>

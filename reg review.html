@@ -1,0 +1,116 @@
+<html>
+<style>
+.container{
+border:inset black;
+text-align:center;
+width:500px; 
+}
+button {
+  background-color: black; 
+  border-radius:55px;
+  color: white;
+  padding: 0px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+width:100px;
+height:50px;
+}
+.btn {
+  width: 60%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+</style>
+
+<body background="https://plus.unsplash.com/premium_photo-1661337018701-1ab4caf665a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNhcm5hdGlvbnxlbnwwfDB8MHx8&w=1000&q=80"style=background-repeat:no-repeat;background-size:cover;text-align:center;>
+<form name="MyForm" action="action_page.php" style="border:1px solid #ccc">
+<center>
+  <div class="container">
+    <h1>SIGN UP</h1><br>
+    <p>Please fill in this form to create an account.</p><br>
+<label for="fname"><b>First Name:</b></label>
+    <input type="text" placeholder="Enter Name" name="fname"autofocus required><br>
+<br><label for="lname"><b>Last Name:</b></label>
+    <input type="text" placeholder="Enter Name" name="lname" required><br>
+
+    <br>
+<div style = "position:relative;centre:100px; left:15px;"><label for="email"><b>Email:</b></label>
+    <input type="text" placeholder="xyz@gmail.com" name="email" required><br>
+</div>
+
+<div style = "position:relative;centre:100px; left:3px;">
+    <br><label for="psw"><b>Password:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br></div>
+
+   <div style = "position:relative;centre:100px; right:27px;">
+<br> <label for="psw-repeat"><b>Confirm Password:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw-repeat" required><br></div>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label><br>
+<label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> By creating an account you agree to our  Terms & Privacy.
+    </label><br>
+
+
+    <div class="clearfix">
+       <button onclick="document.location='review 1.html'"><h3>Cancel</h3></button>
+       <button onclick="document.location='D:/INDUSTRIAL%20COURSE/about.html'"><h3>Sign Up</h3></button>
+       <br>
+<div>
+<h4>Already have an account?<center></h4>
+<button onclick="document.location='genres.html'"><h3>Login</h3></button><br>
+<h2><i>or</i></h2>
+<a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfb%20sign%20up%7C&placement=&creative=589460569891&keyword=fb%20sign%20up&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-294779041346%26loc_physical_ms%3D1007809%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNm0N9KZSO8eZdti_QkNmvKwcyuyZh7jrGBEyd94u5NKN_3GljDQB2kaApjhEALw_wcB" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a><br>
+        <a href="https://twitter.com/i/flow/signup" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a><br>
+        <a href="https://myaccount.google.com/?pli=1" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a><br>
+      </div>
+</div>
+  </div>
+</form>
+</body>
+</html>
